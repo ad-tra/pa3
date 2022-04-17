@@ -1,3 +1,12 @@
 This is bomb 166.
 
 It belongs to at1197 (at1197@scarletmail.rutgers.edu)
+
+##gdp config
+
+b explode_bomb
+set disassemble-next-line on
+set disassembly-flavor intel
+b phase_7
+run sol.txt
+
