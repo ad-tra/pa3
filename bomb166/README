@@ -7,6 +7,49 @@ It belongs to at1197 (at1197@scarletmail.rutgers.edu)
 b explode_bomb
 set disassemble-next-line on
 set disassembly-flavor intel
-b phase_7
 run sol.txt
 
+
+
+
+b *0x56556a88
+
+
+3 4 5 6 2 1
+967|733
+733|69
+69|927
+
+
+1 2 3 4 5 6
+305| 880
+
+5 6 1 2 3 4
+69|
+
+
+5 1 4 2 6 3
+3 6 2 4 1 5
+
+
+
+
+
+
+
+1=305
+2=880
+3=976
+4=733
+5=69
+6=927
+
+
+[
+    69, 5
+    305, 1
+    733, 4
+    880, 2
+    927, 6
+    976 3
+]

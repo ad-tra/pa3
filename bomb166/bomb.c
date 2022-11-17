@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
     /* Do all sorts of secret stuff that makes the bomb harder to defuse. */
     initialize_bomb();
 
-    printf("Welcome to my fiendish little bomb. You have 9 phases with\n");
+    printf("13to my fiendish little bomb. You have 9 phases with\n");
     printf("which to blow yourself up. Have a nice day!\n");
 
     /* Hmm...  Six phases must be more secure than one phase! */
